@@ -1,0 +1,22 @@
+body{
+ background: linear-gradient(135deg, rgb(1, 63, 249), purple);
+}
+.heading{
+    background-color: rgb(164, 170, 237);
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+
+}
+.card{
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+
+
+    color:beige
+    
+}
+
+

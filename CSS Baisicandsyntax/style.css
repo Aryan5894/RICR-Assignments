@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f4f4f4;
+}
+
+h1.kuchbhi {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #333333;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+button.kuchbhi {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.kuchbhi:hover {
+    background-color: #218838;
+}

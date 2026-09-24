@@ -1,0 +1,45 @@
+body{
+background-color: #f7f7f287,#d2d24887;
+}
+h1{
+    background-color: rgb(128, 128, 202);
+}
+.main{
+    background-color: rgb(186, 172, 206);
+    color: #346f69;
+    border-style: ridge;
+    border-left:black ;
+    border-width: 1ch;
+}
+#card{
+    background-color: rgb(240, 236, 173);
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgb(2, 2, 2) ;
+}
+h2{
+    color: rgb(35, 20, 2);
+}
+#card p{
+    background-color: rgb(148, 214, 214);
+    color: rgb(103, 59, 145);
+    border:2px groove red;
+    height: 230px;
+    overflow: auto;
+
+}
+ #clickbtn{
+    background-color: rgb(19, 220, 220);
+    border-color: rgb(38, 229, 184);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px ;
+    box-shadow: inset 1px 1px 5px ;
+ }
+ #clickbtn:hover{
+    background-color: chartreuse;
+    color: rgb(58, 153, 236);
+ }
+ #clickbtn:active{
+    background-color: #362bcc;
+ }
