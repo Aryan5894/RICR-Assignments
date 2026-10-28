@@ -24,17 +24,17 @@
     padding: 40px;
     row-gap: 50px;
     column-gap: 70px;
-    background: #d7c7c7;
+    margin: 40px;
+    background: linear-gradient(rgb(255, 0, 179),blue);
     
 }
 
-.gd
-{
-width: 100px ;
-    height: 100px;
+.gd{
+    width: 100px ;
+    height: 180px ;
     border: 1px solid #000;
-    background: rgb(169, 156, 156);
-    color: aliceblue;
+    background: linear-gradient(blue,pink);
+    color: rgb(116, 164, 205);
     font-size: xx-large;
     font-weight: 900;
     text-align: center;

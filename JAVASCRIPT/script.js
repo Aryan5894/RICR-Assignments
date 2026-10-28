@@ -1,0 +1,1 @@
+const corsediv = document.getElementById("")

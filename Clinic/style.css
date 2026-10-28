@@ -1,0 +1,769 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #26364a;
+    line-height: 1.6;
+    background-color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.section-tag {
+    color: #0b6efd;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.top-bar {
+    background-color: #0b6efd;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    gap: 25px;
+}
+
+.contact-info i,
+.badge i {
+    margin-right: 6px;
+}
+
+.badges {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+    padding: 18px 0;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #0b6efd;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    font-size: 15px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #0b6efd;
+}
+
+.nav-links select {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    color: #26364a;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #0b6efd;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #075bc9;
+}
+
+.btn-secondary {
+    border: 1px solid #0b6efd;
+    color: #0b6efd;
+}
+
+.btn-secondary:hover {
+    background-color: #0b6efd;
+    color: white;
+}
+
+.btn-outline {
+    border: 1px solid #0b6efd;
+    color: #0b6efd;
+    padding: 9px 14px;
+}
+
+
+
+
+.btn-light {
+    background-color: white;
+    color: #0b6efd;
+
+
+}
+
+.btn-light-blue {
+    background-color: #dceeff;
+    color: #0b6efd;
+}
+
+
+
+.hero-section {
+    background-color: #f1f7ff;
+    padding: 75px 0;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text {
+    width: 52%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #0b6efd;
+}
+
+.description {
+    color: #667085;
+    margin-bottom: 30px;
+}
+
+.stats-grid {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.stat-item h3 {
+    color: #0b6efd;
+    font-size: 27px;
+}
+
+.stat-item p {
+    font-size: 14px;
+    color: #667085;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.emergency-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.phone-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #dceeff;
+    color: #0b6efd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.phone-details {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.label {
+    font-size: 13px;
+    color: #667085;
+}
+
+.phone-number {
+    color: #0b6efd;
+    font-weight: bold;
+}
+
+.hero-image-wrapper {
+    width: 43%;
+
+}
+
+.main-image-card {
+    position: relative;
+}
+
+.main-image-card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.floating-card {
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px #00000020;
+}
+
+.next-available {
+    left: -35px;
+    bottom: 40px;
+
+
+}
+
+.rating-card {
+    right: -25px;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-label,
+.doctor-name {
+    font-size: 12px;
+    color: #667085;
+}
+
+.card-time {
+    color: #0b6efd;
+}
+
+.stars {
+    color: #ffb400;
+}
+
+
+
+.about-section {
+    padding: 90px 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text h2 {
+    font-size: 38px;
+    line-height: 1.3;
+    margin: 10px 0 20px;
+}
+
+.about-text p {
+    color: #667085;
+    margin-bottom: 15px;
+}
+
+.about-stats {
+    display: flex;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.about-stats h3 {
+    color: #0b6efd;
+    font-size: 24px;
+}
+
+.about-stats p {
+    font-size: 13px;
+}
+
+.about-card-right {
+    width: 50%;
+    position: relative;
+}
+
+.about-card-right img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.blue-stat-badge {
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    background-color: #0b6efd;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.blue-stat-badge span {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.blue-stat-badge small {
+    font-size: 11px;
+}
+
+.emergency-overlay {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.emergency-overlay > i {
+    color: #0b6efd;
+    font-size: 28px;
+}
+
+.emergency-overlay p {
+    font-size: 12px;
+    color: #667085;
+}
+
+
+
+.section-title {
+    margin-bottom: 45px;
+}
+
+.section-title h2 {
+    font-size: 38px;
+    margin: 8px 0;
+}
+
+.section-title p {
+    color: #667085;
+}
+
+
+
+.departments-section {
+    padding: 90px 0;
+    background-color: #f8fbff;
+}
+
+.departments-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.dept-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #0000000d;
+}
+
+.dept-tag {
+    color: #0b6efd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dept-card h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.dept-card p {
+    color: #667085;
+}
+
+.dept-card ul {
+    margin: 20px 0;
+}
+
+.dept-card li {
+    margin-bottom: 8px;
+}
+
+.dept-card li i {
+    color: #0b6efd;
+    margin-right: 8px;
+}
+
+.dept-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.link-btn {
+    color: #0b6efd;
+    font-weight: bold;
+}
+
+.small-depts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.small-dept-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.small-dept-card h3 {
+    margin-bottom: 10px;
+}
+
+.small-dept-card p {
+    color: #667085;
+    margin-bottom: 15px;
+}
+
+.small-dept-card a {
+    color: #0b6efd;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+.banner-section {
+    background-color: #0b6efd;
+    color: white;
+    padding: 50px 0;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.banner-content h2 {
+    margin-bottom: 8px;
+}
+
+.banner-content p {
+    max-width: 650px;
+}
+
+
+
+.features-section {
+    padding: 90px 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 35px 25px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+}
+
+.feature-box i {
+    color: #0b6efd;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.feature-box h3 {
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    color: #667085;
+}
+
+
+
+.doctors-section {
+    padding: 90px 0;
+    background-color: #f8fbff;
+}
+
+.doctors-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.doctor-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px #0000000d;
+}
+
+.doctor-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.doctor-card h3 {
+    margin-top: 15px;
+}
+
+.doctor-card > span {
+    color: #0b6efd;
+    font-size: 14px;
+}
+
+.rating {
+    color: #ffb400;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.card-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.appointment-section {
+    padding: 70px 0;
+}
+
+.appointment-container {
+    background-color: #eef7ff;
+    padding: 45px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.appointment-container h2 {
+    font-size: 32px;
+    margin: 5px 0;
+}
+
+.appointment-container p {
+    color: #667085;
+}
+
+
+
+.cta-section {
+    padding: 55px 0;
+    background-color: #eaf5ff;
+}
+
+.cta-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cta-content h2 {
+    margin-bottom: 8px;
+}
+
+.cta-content p {
+    color: #667085;
+}
+
+
+
+.footer {
+    background-color: #142235;
+    color: white;
+    padding: 70px 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.brand-col h3 {
+    color: #4d9cff;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    color: #b8c1cc;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-col h4 {
+    margin-bottom: 20px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul a {
+    color: #b8c1cc;
+    font-size: 14px;
+}
+
+.footer-col ul a:hover {
+    color: white;
+}
+
+.footer-col i {
+    color: #4d9cff;
+    margin-right: 7px;
+}
+
+
+
+@media (max-width: 800px) {
+
+    .top-bar-content,
+    .nav-content,
+    .hero-container,
+    .about-container,
+    .banner-content,
+    .cta-content,
+    .appointment-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .badges,
+    .nav-links,
+    .hero-actions,
+    .stats-grid,
+    .about-stats {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links {
+        gap: 12px;
+        margin-top: 15px;
+    }
+
+    .hero-text,
+    .hero-image-wrapper,
+    .about-text,
+    .about-card-right {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+    }
+
+    .main-image-card img {
+        height: 400px;
+    }
+
+    .departments-grid,
+    .small-depts-grid,
+    .features-grid,
+    .doctors-grid,
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .next-available {
+        left: 10px;
+    }
+
+    .rating-card {
+        right: 10px;
+    }
+
+    .banner-content,
+    .cta-content,
+    .appointment-container {
+        text-align: center;
+    }
+}

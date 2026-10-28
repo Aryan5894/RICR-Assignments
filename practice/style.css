@@ -1,0 +1,196 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.nav{
+    height: 30px;
+    border: 6px solid red;
+    background-color: rgb(218, 238, 250);
+    display: flex;
+    gap: 30px;
+    align-items:center;
+    color: aliceblue;
+}
+.lower{
+    height: 50px;
+    border: 4px solid rgb(18, 47, 236);
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+#head{
+   margin-right: 1100px ;
+
+}
+
+.box{
+    display: flex;
+    gap: 150px;
+
+}
+.para{
+    height: 670px;
+    width: 720px;
+    border: 4px solid green;
+}
+
+}
+.img-doc{
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.floating-card{
+    height: 170px;
+    width: 120px;
+    border: 4px solid yellow;
+    margin: 15px;
+    float: right;
+}
+.ratting{
+    height: 150px;
+    width: 100px;
+    border: 5px solid rgb(0, 255, 13);
+     position: relative;
+    top: 420px;
+    margin: 15px;
+
+}
+
+#box-item1{
+    height: 90px;
+    width: 90px;
+    border: 3px solid black;
+    margin: 40px;
+    align-items: center;
+}
+
+
+#box-item2{
+    height: 90px;
+    width: 90px;
+    border: 3px solid black;
+    margin: 40px;
+    align-items: center;
+}
+
+
+#box-item3{
+    height: 90px;
+    width: 90px;
+    border: 3px solid black;
+    margin: 40px;
+    align-items: center;
+}
+ #jumbo{
+    height: 190px;
+    width: 400px;
+     size: 10px; 
+     margin: 80px;
+     border: 4px solid yellow;
+     text-align:right ;
+
+
+ }
+ .experience-bar {
+    background: white;
+    width: 160px;
+    padding: 15px;
+    margin: 15px;
+    float: right;
+    box-shadow: 0 0 15px lightgray;
+    border-radius: 10px;
+
+
+}
+.experience-bar h2 {
+    color: blue;
+    font-size: 30px;
+}
+
+
+.experience-bar p {
+    color: gray;
+}
+
+.main-img {
+    position: relative;
+    width: 620px;
+}
+
+.img-doc {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    display: block;
+}
+
+}
+
+.treat h2 {
+    color: blue;
+    font-size: 28px;
+
+}
+
+.treat p {
+    color: gray;
+    margin-top: 5px;
+
+}
+ #book{
+    height: 60px;
+    width: 180px;
+    border: 4px solid green;
+    border-radius: 28px;
+    background-color: blue;
+    color: white;
+ }
+
+ #watch{
+    height: 60px;
+    width: 180px;
+    border: 4px solid green;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+
+ }
+ 
+.Emercall {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 25px;
+
+
+}
+
+.Emercall i {
+    font-size: 30px;
+    color: blue;
+
+}
+
+.Emercall p {
+    color: gray;
+}
+
+.Emercall a {
+    color: navy;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+#para{
+    font-size: 16px;
+    color: rgb(87, 86, 86);
+    line-height: 1.7;
+    margin: 20px 40px;
+
+}
